@@ -25,7 +25,6 @@ h1, h2, h3, h4 {
 
 h1 {
     font-size: 4.5rem;
-    letter-spacing: -0.02em;
     color: #1e3a8a;
 }
 
@@ -125,6 +124,7 @@ nav {
     min-height: 90vh;
     display: flex;
     align-items: center;
+    padding: 0 5%;
     background: url('https://media.architecturaldigest.com/photos/584988030f1fdbff1cc00349/16:9/w_4191,h_2357,c_limit/jackson-hole-01.jpg');
     background-size: cover;
     background-position: center;
