@@ -1,15 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Libertinus+Keyboard&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
-    <h1>Sam Mayle</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Samuel B. Mayle - Software Engineer & Student"
+    />
+    <title>Samuel B. Mayle | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Space+Grotesk:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="logo">S.M.</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+
+    <header id="home" class="hero">
+      <div class="hero-content">
+        <h1>Samuel Mayle</h1>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Projects</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+      <div class="hero-background"></div>
+    </header>
+
+    <main>
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About Me</h2>
+          <div class="about-grid">
+            <div class="about-text">
+              <p>
+                I am a Junior at Cambridge Rindge and Latin School with a
+                passion for economics, engineering, and computer science. From
+                building bikes and circuits to developing research projects, I
+                love solving real-world problems through innovation.
+              </p>
+              <p>
+                Currently, I am involved in various clubs including the Jewish
+                Heritage Club, Chemistry Olympiad Club, Math Club, and CS Club.
+                I also lead the Investment Club, discussing market strategies
+                and economics. In addition, I lead the newly re-founded Mock
+                Trial club which will be going to statewide competitions this
+                year.
+              </p>
+              <p>
+                When I'm not coding or building hardware, you can find me
+                playing tennis, squash, frisbee, or spending my summers at Camp
+                Yavneh.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <h2>Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h3>Languages & Frameworks</h3>
+              <div class="skill-icons">
+                <div class="skill-item">Python</div>
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">React</div>
+                <div class="skill-item">Java</div>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3>Operating Systems</h3>
+              <div class="skill-icons">
+                <div class="skill-item">MacOS</div>
+                <div class="skill-item">Windows</div>
+                <div class="skill-item">Linux (Kali)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-content">
+                <h3>Class Rating System</h3>
+                <p class="date">May 2025 - PRESENT</p>
+                <p>
+                  A full-stack web application designed to help students decide
+                  on classes. Features include a database for storing reviews
+                  and logins, and a backend API. Focuses on scalable system
+                  design.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img
+                src="/images/aspine.png"
+                alt="Better Grade Viewer"
+                class="project-image"
+              />
+              <div class="project-content">
+                <h3>Better Grade Viewer</h3>
+                <p class="date">Sept 2023 - Sept 2025</p>
+                <p>
+                  Contributed to an ongoing effort to improve the grade viewing
+                  experience at CRLS. Worked on UI enhancements despite
+                  challenges with new login guidelines.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-content">
+                <h3>Carpool Finder</h3>
+                <p class="date">June 2023 - Sept 2023</p>
+                <p>
+                  Developed a carpool finder solution using Google Maps API and
+                  graph theory concepts. Later iterations incorporated PyTorch
+                  for machine learning elements.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img
+                src="/images/bike.png"
+                alt="Electric Bike Build"
+                class="project-image"
+              />
+              <div class="project-content">
+                <h3>Electric Bike Build</h3>
+                <p class="date">June 2023 - Aug 2023</p>
+                <p>
+                  Engineered a custom electric bike using recycled parts from
+                  MIT Swapfest. A project driven by environmental impact and the
+                  need for efficient transportation in Wyoming.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img
+                src="/images/breadboard.png"
+                alt="Breadboard Graphics Card"
+                class="project-image"
+              />
+              <div class="project-content">
+                <h3>Breadboard Graphics Card</h3>
+                <p class="date">Jan 2023 - Sept 2024</p>
+                <p>
+                  Built a solderless breadboard graphics card based on Ben
+                  Eater's schematics. Required extensive organization and
+                  trial-and-error.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-content">
+                <h3>Digital Synthesizer</h3>
+                <p class="date">Sept 2022 - Jan 2023</p>
+                <p>
+                  Created a portable digital synthesizer using a Raspberry Pi
+                  running customized Fluidsynth software, integrated with a MIDI
+                  keyboard.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="container">
+          <h2>Education</h2>
+
+          <div class="education-grid">
+            <div class="education-item">
+              <h3>Cambridge Rindge and Latin School</h3>
+              <span class="date">2023-2027 | GPA: 96/100 UW</span>
+              <p>
+                <strong>Relevant Courses:</strong> AP Computer Science
+                Principles, AP Computer Science A, AP Calculus BC, AP United
+                States History, Computer Science 2, Multivariable Calculus,
+                Principles of Macroeconomics (Harvard College), Discrete Math in
+                Computer Science (Harvard Extension).
+              </p>
+            </div>
+            <div class="education-item">
+              <h3>The Acera School</h3>
+              <span class="date">Graduate | 2017 - 2023</span>
+            </div>
+          </div>
+
+          <div class="community-block">
+            <h3>Community & Leadership</h3>
+            <ul class="community-list">
+              <li>
+                <strong>Investment Club Lead:</strong> Leading 30+ members in
+                economic discussions.
+              </li>
+              <li>
+                <strong>Mock Trial Lead:</strong> Leading 20+ members in a
+                simulated court experience against other schools.
+              </li>
+              <li>
+                <strong>Tutor:</strong> Cambridge School Volunteers (2023-2025).
+              </li>
+              <li><strong>CIT:</strong> Camp Yavneh (Summer 2025).</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <div class="container footer-content">
+        <h2>Connect!</h2>
+        <p>Feel free to reach out!</p>
+        <div class="contact-links">
+          <a href="mailto:sam@mayle.com" class="contact-btn">
+            <i class="fas fa-envelope"></i> Home Email</a
+          >
+          <a href="mailto:27smayle@cpsd.us" class="contact-btn">
+            <i class="fas fa-graduation-cap"></i> School Email</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
